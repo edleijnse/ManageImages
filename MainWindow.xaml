@@ -1,0 +1,106 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        KeyDown="Window_KeyDown"
+        Title="Start Applications" Height="180" Width="326">
+
+    <TabControl>
+        <TabItem Header="Convert">
+            <Grid Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Column="0" Grid.Row="0" Name="Button1" Content="Convert Raw" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="1" Grid.Row="0" Name="Button2" Content="Start Excel" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="0" Grid.Row="1" Name="Button3" Content="Start OneNote" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="1" Grid.Row="1" Name="Button4" Content="Start Outlook" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"   Margin="30,10,30,10"/>
+
+            </Grid>
+        </TabItem>
+        <TabItem Header="Tools">
+            <!-- Add your content for Tools tab here -->
+            <Grid Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Column="0" Grid.Row="0" Name="Button5" Content="Start Word" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="1" Grid.Row="0" Name="Button6" Content="Start Excel" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="0" Grid.Row="1" Name="Button7" Content="Start OneNote" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="1" Grid.Row="1" Name="Button8" Content="Start Outlook" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"   Margin="30,10,30,10"/>
+
+            </Grid>
+        </TabItem>
+        <TabItem Header="Pictures">
+            <!-- Add your content for Pictures tab here-->
+            <!-- Add your content for Tools tab here -->
+            <Grid Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Column="0" Grid.Row="0" Name="Button9" Content="Start Word" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="1" Grid.Row="0" Name="Button10" Content="Start Excel" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="0" Grid.Row="1" Name="Button11" Content="Start OneNote" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="1" Grid.Row="1" Name="Button12" Content="Start Outlook" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"   Margin="30,10,30,10"/>
+
+            </Grid>
+        </TabItem>
+        <TabItem Header="Programming">
+            <!-- Add your content for Programming tab here -->
+            <!-- Add your content for Tools tab here -->
+            <Grid Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Column="0" Grid.Row="0" Name="Button13" Content="Start Word" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="1" Grid.Row="0" Name="Button14" Content="Start Excel" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="0" Grid.Row="1" Name="Button15" Content="Start OneNote" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="1" Grid.Row="1" Name="Button16" Content="Start Outlook" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"   Margin="30,10,30,10"/>
+
+            </Grid>
+        </TabItem>
+        <TabItem Header="Other">
+            <!-- Add your content for Programming tab here -->
+            <!-- Add your content for Tools tab here -->
+            <Grid Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Column="0" Grid.Row="0" Name="Button17" Content="Start Word" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="1" Grid.Row="0" Name="Button18" Content="Start Excel" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="0" Grid.Row="1" Name="Button19" Content="Start OneNote" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"  Margin="30,10,30,10"/>
+                <Button Grid.Column="1" Grid.Row="1" Name="Button20" Content="Start Outlook" AllowDrop = "True" Drop="BtnDropFile_Drop" Click="ButtonClickHandler"   Margin="30,10,30,10"/>
+
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>
